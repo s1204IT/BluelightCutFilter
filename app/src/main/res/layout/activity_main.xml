@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/ButtonAddFilter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="add Filter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+    <Button android:id="@+id/ButtonRemoveFilter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remove Filter" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+    <RadioGroup android:id="@+id/RadioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33dp" android:layout_marginTop="38dp" android:layout_below="@+id/ButtonAddFilter" android:layout_alignParentLeft="true" android:layout_marginStart="33dp" android:layout_alignParentStart="true">
+        <RadioButton android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="0%" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20%" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/radioButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40%" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/radioButton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60%" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/radioButton5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="80%" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/radioButton6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%" android:layout_weight="1"/>
+    </RadioGroup>
+</RelativeLayout>

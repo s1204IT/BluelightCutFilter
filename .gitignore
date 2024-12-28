@@ -1,0 +1,6 @@
+# Gradle
+/.gradle/
+# Android SDK
+/local.properties
+# Gradle Build
+/app/build/
